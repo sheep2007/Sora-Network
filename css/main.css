@@ -2804,14 +2804,6 @@ input[type="radio"]+label:before {
     /*background: rgba(39, 40, 51, 0.965);*/
 }
 
-.image:before {
-    content: '';
-    position: absolute;
-    inset: -10px 104px;
-    /*background: linear-gradient(315deg, #e44c65,#62cb44);*/
-    transition: 0.6s;
-    animation:  animate 3s linear infinite;
-}
 
 .image:hover:before {
     inset: -20px 0;
